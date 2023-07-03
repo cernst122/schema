@@ -11085,3 +11085,24 @@ typeOf: schema:Property
 domainIncludes: schema:Thing
 rangeIncludes: schema:Text
 description: "One of a number of things that belong together in a grouping."
+
+Node: dcid:ClassRoom
+typeOf: dcs:Class
+name: "ClassRoom"
+subClassOf: dcs:Thing
+
+Node: dcid:MedicalServiceUnit
+typeOf: dcs:Class
+name: "MedicalServiceUnit"
+subClassOf: dcs:MedicalFacility
+description: "Medical services means Medically Necessary services, for example cardiac surgery, cardiology, bone marrow transplant, neurosurgery and for oncology etc."
+
+Node: dcid:RegionalPolyclinic
+typeOf: dcs:Class
+name: "RegionalPolyclinic"
+subClassOf: dcs:MedicalFacility
+
+Node: dcid:SanatoriumRehabilitationHospital
+typeOf: dcs:Class
+name: "SanatoriumRehabilitationHospital"
+subClassOf: dcs:MedicalFacility
