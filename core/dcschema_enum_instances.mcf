@@ -2401,3 +2401,143 @@ Node: dcid:USDACommodityProgram
 typeOf: dcid:FoodEstablishmentTypeEnum
 name: "USDACommodityProgram"
 
+Node: dcid:PrivateSectorFormalContract
+typeOf: dcs:EconomicSectorEnum
+name: "PrivateSectorFormalContract"
+description: "People in the private sector with a formal contract"
+
+Node: dcid:PrivateSectorNoFormalContract
+typeOf: dcs:EconomicSectorEnum
+name: "PrivateSectorNoFormalContract"
+description: "People in the private sector without a formal contract"
+
+Node: dcid:DomesticWorker
+typeOf: dcs:EconomicSectorEnum
+name: "DomesticWorker"
+description: "People as domestic worker"
+
+Node: dcid:PublicSector
+typeOf: dcs:EconomicSectorEnum
+name: "PublicSector"
+description: "People in the public sector (including statutory and military servants)"
+
+Node: dcid:Employer
+typeOf: dcs:EconomicSectorEnum
+name: "Employer"
+description: "People as an Employer"
+
+Node: dcid:SelfEmployed
+typeOf: dcs:EconomicSectorEnum
+name: "SelfEmployed"
+description: "People as Self-employed"
+
+Node: dcid:AuxiliaryFamilyWorker
+typeOf: dcs:EconomicSectorEnum
+name: "AuxiliaryFamilyWorker"
+description: "People as an auxiliary family worker"
+
+Node: dcid:AgricultureForestFishing
+typeOf: dcs:EconomicSectorEnum
+name: "AgricultureForestFishing"
+description: "People in the Agriculture livestock forest production fishing and aquaculture activity group."
+
+Node: dcid:GeneralIndustry
+typeOf: dcs:EconomicSectorEnum
+name: "GeneralIndustry"
+description: "People in the General Industry activity group"
+
+Node: dcid:Construction
+typeOf: dcs:EconomicSectorEnum
+name: "Construction"
+description: "People in the Construction activity group"
+
+Node: dcid:GroupTradeVehicleRepair
+typeOf: dcs:EconomicSectorEnum
+name: "GroupTradeVehicleRepair"
+description: "People in the activity group Trade repair of motor vehicles and motorcycles"
+
+Node: dcid:TransportStorage
+typeOf: dcs:EconomicSectorEnum
+name: "TransportStorage"
+description: "People in the Transport storage and mail activity group"
+
+Node: dcid:AccommodationFood
+typeOf: dcs:EconomicSectorEnum
+name: "AccommodationFood"
+description: "People in the activity group Accommodation and food"
+
+Node: dcid:CommunicationFinance
+typeOf: dcs:EconomicSectorEnum
+name: "CommunicationFinance"
+description: "People in the Information communication and financial real estate professional and administrative activities group"
+
+Node: dcid:AdminSocialServiceEducation
+typeOf: dcs:EconomicSectorEnum
+name: "AdminSocialServiceEducation"
+description: "People in the activity group Public administration defense social security education human health and social services"
+
+Node: dcid:IBGE_OtherServices
+typeOf: dcs:EconomicSectorEnum
+name: "IBGE_OtherServices"
+description: "People in the activity group Other services"
+
+Node: dcid:DomesticServices
+typeOf: dcs:EconomicSectorEnum
+name: "DomesticServices"
+description: "People in the Domestic Services activity group"
+
+Node: dcid:CommerceVehicleRepair
+typeOf: dcs:EconomicSectorEnum
+name: "CommerceVehicleRepair"
+description: "People in the Commerce repair of motor vehicles and motorcycles activity group."
+
+Node: dcid:ActuallyReceived
+typeOf: dcs:IncomeTypeEnum
+name: "ActuallyReceived"
+description: "Income received by a person per month."
+
+Node: dcid:AllJobs
+typeOf: dcs:IncomeSourceEnum
+name: "AllJobs"
+description: "Persons engaged in all jobs."
+
+Node: dcid:MainJob
+typeOf: dcs:IncomeSourceEnum
+name: "MainJob"
+description: "Persons engaged in their main job."
+
+Node: dcid:ClothingSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Clothing"
+
+Node: dcid:CommunicationSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "CommunicationSector"
+
+Node: dcid:EducationSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Education"
+
+Node: dcid:FoodAndDrinksSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Food And Drinks"
+
+Node: dcid:HealthPersonalCareSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Health Personal Care"
+
+Node: dcid:HouseItemsSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "House Items"
+
+Node: dcid:HousingSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Housing"
+
+Node: dcid:PersonalExpensesSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Personal Expenses"
+
+Node: dcid:TransportSector
+typeOf: dcs:ConsumerGoodsCategoryEnum
+name: "Transport"

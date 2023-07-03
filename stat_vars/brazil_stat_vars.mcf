@@ -793,3 +793,754 @@ statType: dcid:measuredValue
 measuredProperty: dcid:count
 typeOf: dcid:StatisticalVariable
 age: dcid:Years15To24
+
+Node: dcid:Count_Person_Years14Onwards
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+
+Node: dcid:Count_Person_Years14Onwards_InLaborForce_AsAFractionOf_Count_Person_Years14Onwards
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+measurementDenominator: dcid:Count_Person_Years14Onwards
+age: dcid:Years14Onwards
+employmentStatus: dcid:InLaborForce
+
+Node: dcid:Count_Person_Years14Onwards_Unemployed_AsAFractionOf_Count_Person_Years14Onwards
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+measurementDenominator: dcid:Count_Person_Years14Onwards
+age: dcid:Years14Onwards
+employmentStatus: dcid:Unemployed
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices
+typeOf: dcid:StatisticalVariable
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_ClothingSector
+typeOf: dcid:StatisticalVariable
+name: "Clothing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:ClothingSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_CommunicationSector
+typeOf: dcid:StatisticalVariable
+name: "Communication Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:CommunicationSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_EducationSector
+typeOf: dcid:StatisticalVariable
+name: "Education Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:EducationSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_FoodAndDrinksSector
+typeOf: dcid:StatisticalVariable
+name: "Food And Drinks Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:FoodAndDrinksSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HealthPersonalCareSector
+typeOf: dcid:StatisticalVariable
+name: "Health And Personal Care Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HealthPersonalCareSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HouseItemsSector
+typeOf: dcid:StatisticalVariable
+name: "Household Items Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HouseItemsSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HousingSector
+typeOf: dcid:StatisticalVariable
+name: "Housing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HousingSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_PersonalExpensesSector
+typeOf: dcid:StatisticalVariable
+name: "Personal Expenses Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:PersonalExpensesSector
+
+Node: dcid:Annual_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_TransportSector
+typeOf: dcid:StatisticalVariable
+name: "Transport Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Annual
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:TransportSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices
+typeOf: dcid:StatisticalVariable
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_ClothingSector
+typeOf: dcid:StatisticalVariable
+name: "Clothing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:ClothingSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_CommunicationSector
+typeOf: dcid:StatisticalVariable
+name: "Communication Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:CommunicationSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_EducationSector
+typeOf: dcid:StatisticalVariable
+name: "Education Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:EducationSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_FoodAndDrinksSector
+typeOf: dcid:StatisticalVariable
+name: "Food And Drinks Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:FoodAndDrinksSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_HealthPersonalCareSector
+typeOf: dcid:StatisticalVariable
+name: "Health And Personal Care Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:HealthPersonalCareSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_HouseItemsSector
+typeOf: dcid:StatisticalVariable
+name: "Household Items Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:HouseItemsSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_HousingSector
+typeOf: dcid:StatisticalVariable
+name: "Housing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:HousingSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_PersonalExpensesSector
+typeOf: dcid:StatisticalVariable
+name: "Personal Expenses Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:PersonalExpensesSector
+
+Node: dcid:Monthly_ConsumerPriceIndexWeight_ConsumerGoodsAndServices_TransportSector
+typeOf: dcid:StatisticalVariable
+name: "Transport Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndexWeight
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+consumerGoodsCategory: dcid:TransportSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices
+typeOf: dcid:StatisticalVariable
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_ClothingSector
+typeOf: dcid:StatisticalVariable
+name: "Clothing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:ClothingSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_CommunicationSector
+typeOf: dcid:StatisticalVariable
+name: "Communication Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:CommunicationSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_EducationSector
+typeOf: dcid:StatisticalVariable
+name: "Education Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:EducationSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_FoodAndDrinksSector
+typeOf: dcid:StatisticalVariable
+name: "Food And Drinks Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:FoodAndDrinksSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HealthPersonalCareSector
+typeOf: dcid:StatisticalVariable
+name: "Health And Personal Care Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HealthPersonalCareSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HouseItemsSector
+typeOf: dcid:StatisticalVariable
+name: "Household Items Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HouseItemsSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_HousingSector
+typeOf: dcid:StatisticalVariable
+name: "Housing Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:HousingSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_PersonalExpensesSector
+typeOf: dcid:StatisticalVariable
+name: "Personal Expenses Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:PersonalExpensesSector
+
+Node: dcid:Monthly_Variance_ConsumerPriceIndex_ConsumerGoodsAndServices_TransportSector
+typeOf: dcid:StatisticalVariable
+name: "Transport Sector"
+populationType: dcid:ConsumerGoodsAndServices
+measuredProperty: dcid:consumerPriceIndex
+measurementQualifier: dcid:Monthly
+statType: dcid:varianceValue
+consumerGoodsCategory: dcid:TransportSector
+
+Node: dcid:Monthly_Income_Person_Years14Onwards_Employed
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+
+Node: dcid:Monthly_Income_Person_Years14Onwards_Employed_ActuallyReceived
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+incomeType: dcid:ActuallyReceived
+
+Node: dcid:Count_Person_Years14Onwards
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+
+Node: dcid:Count_Person_Years14Onwards_AccommodationFood_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week in the activity group Accommodation and food"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:AccommodationFood
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_AdminSocialServiceEducation_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week in the activity group Public administration, defense, social security, education, human health and social services"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:AdminSocialServiceEducation
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_AgricultureForestFishing_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week in the Agriculture, livestock, forest production, fishing and aquaculture activity group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:AgricultureForestFishing
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_AuxiliaryFamilyWorker_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week as an auxiliary family worker"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:AuxiliaryFamilyWorker
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_CommunicationFinance_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the Information, communication and financial, real estate, professional and administrative activities group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:CommunicationFinance
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_Construction_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the Construction activity group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:Construction
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_DomesticServices_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the Domestic Services activity group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:DomesticServices
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_DomesticWorker_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week as a domestic worker"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:DomesticWorker
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_Employed
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_Employer_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week as an Employer"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:Employer
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_GeneralIndustry_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the General Industry activity group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:GeneralIndustry
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_GroupTradeVehicleRepair_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the activity group Trade, repair of motor vehicles and motorcycles"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:GroupTradeVehicleRepair
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_IBGEOtherServices_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week in the activity group Other services"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:IBGE_OtherServices
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_InLaborForce
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:InLaborForce
+
+Node: dcid:Count_Person_Years14Onwards_NotInLaborForce
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:NotInLaborForce
+
+Node: dcid:Count_Person_Years14Onwards_PrivateSectorFormalContract_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week as Employee in the private sector with a formal contract"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:PrivateSectorFormalContract
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_PrivateSectorNoFormalContract_Employed
+typeOf: dcid:StatisticalVariable
+name: "People aged 14 or over, employed in the reference week as Employee in the private sector without a formal contract"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:PrivateSectorNoFormalContract
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_PublicSector_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week as Employee in the public sector (including statutory and military servants)"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:PublicSector
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_SelfEmployed_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week as Self-employed"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:SelfEmployed
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_TransportStorage_Employed
+typeOf: dcid:StatisticalVariable
+name: "Persons aged 14 or over, employed in the reference week in the Transport, storage and mail activity group"
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+economicSector: dcid:TransportStorage
+employmentStatus: dcid:Employed
+
+Node: dcid:Count_Person_Years14Onwards_Unemployed
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:count
+statType: dcid:measuredValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Unemployed
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_AccommodationFood_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the activity group Accommodation and food"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:AccommodationFood
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_AdminSocialServiceEducation_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the activity group Public administration, defense, social security, education, human health and social services"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:AdminSocialServiceEducation
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_AgricultureForestFishing_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually earned per month, by people aged 14 or over, employed in the reference week, with earnings from work, in the Agriculture, livestock, forest production, fishing and aquaculture activity group (R$ )"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:AgricultureForestFishing
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_CommerceVehicleRepair_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with earnings from work, in the Commerce, repair of motor vehicles and motorcycles activity group"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:CommerceVehicleRepair
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_CommunicationFinance_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with earnings from work, in the Information, communication and financial, real estate, professional and administrative activity grouping"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:CommunicationFinance
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Construction_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the Construction activity group"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:Construction
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_DomesticServices_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the Domestic Services activity group"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:DomesticServices
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_DomesticWorker_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, as a Domestic Worker"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:DomesticWorker
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Employed_AllJobs
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+incomeSource: dcid:AllJobs
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Employed_AllJobs_ActuallyReceived
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+incomeSource: dcid:AllJobs
+incomeType: dcid:ActuallyReceived
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Employed_MainJob_ActuallyReceived
+typeOf: dcid:StatisticalVariable
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+incomeType: dcid:ActuallyReceived
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_Employer_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, as an Employer"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:Employer
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_GeneralIndustry_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the General industry activity group"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:GeneralIndustry
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_IBGEOtherServices_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, in the group of activities Other services"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:IBGE_OtherServices
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_PrivateSectorFormalContract_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, as Employee in the private sector with a formal contract"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:PrivateSectorFormalContract
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_PrivateSectorNoFormalContract_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, as Employee in the private sector without a formal contract"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:PrivateSectorNoFormalContract
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_PublicSector_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, as Employee in the public sector (including statutory and military servants)"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:PublicSector
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_SelfEmployed_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Average real income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with income from work, such as Self-employed"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:SelfEmployed
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob
+
+Node: dcid:Monthly_Mean_Income_Person_Years14Onwards_TransportStorage_Employed_MainJob
+typeOf: dcid:StatisticalVariable
+name: "Real average income from the main job, usually received per month, by people aged 14 or over, employed in the reference week, with earnings from work, in the Transport, storage and mail activity group"
+populationType: dcid:Person
+measuredProperty: dcid:income
+measurementQualifier: dcid:Monthly
+statType: dcid:meanValue
+age: dcid:Years14Onwards
+economicSector: dcid:TransportStorage
+employmentStatus: dcid:Employed
+incomeSource: dcid:MainJob

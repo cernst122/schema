@@ -2714,7 +2714,7 @@ Node: dcid:economicSector
 name: "economicSector"
 typeOf: schema:Property
 domainIncludes: schema:Person
-rangeIncludes: dcs:NACEEnum
+rangeIncludes: dcs:NACEEnum, dcs:EconomicSectorEnum
 
 Node: dcid:workPeriod
 name: "workPeriod"
@@ -3159,3 +3159,36 @@ name: "Married"
 Node: dcid:NotLivingTogether
 typeOf: dcs:MaritalStatusEnum
 name: "NotLivingTogether"
+
+Node: dcid:incomeType
+typeOf: dcs:Property
+name: "incomeType"
+rangeIncludes: dcs:IncomeTypeEnum
+description: "Type of income a person receives per month."
+
+Node: dcid:incomeSource
+typeOf: dcs:Property
+name: "incomeSource"
+rangeIncludes: dcs:IncomeSourceEnum
+description: "Priority level of the job a person is getting an income from. A Main Job or All Jobs"
+
+Node: dcid:consumerGoodsCategory
+typeOf: schema:Property
+name: "consumerGoodsCategory"
+rangeIncludes: dcs:ConsumerGoodsCategoryEnum
+description: "Products and Services that fall under Consumer Price Index"
+
+Node: dcid:varianceValue
+typeOf: dcs:Property
+domainIncludes: dcs:Observation
+name: "varianceValue"
+description: "Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value."
+rangeIncludes: dcs:Number
+
+Node: dcid:consumerPriceIndexWeight
+typeOf: dcs:Property
+domainIncludes: dcs:ConsumerGoodsAndServices
+name: "consumerPriceIndexWeight"
+description: "The CPI measures the change in the cost of living from one period to the next.Household spending weights are used to average the changes in component goods and services into the All-items index."
+descriptionUrl: "https://www.bls.gov/cpi/tables/relative-importance/home.htm#:~:text=The%20CPI%20measures%20the%20change,into%20the%20All%2Ditems%20index."
+rangeIncludes: dcs:Number
