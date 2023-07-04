@@ -1562,7 +1562,7 @@ rangeIncludes: schema:Text
 Node: Hospital
 dcid: "Hospital"
 typeOf: schema:Class
-subClassOf: schema:CivicStructure
+subClassOf: schema:CivicStructure, dcs:HealthEstablishmentTypeEnum
 name: "Hospital"
 
 Node: WPSideBar
@@ -11085,3 +11085,8 @@ typeOf: schema:Property
 domainIncludes: schema:Thing
 rangeIncludes: schema:Text
 description: "One of a number of things that belong together in a grouping."
+
+Node: dcid:ClassRoom
+typeOf: dcs:Class
+name: "ClassRoom"
+subClassOf: dcs:Thing

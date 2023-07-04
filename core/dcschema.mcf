@@ -3159,3 +3159,17 @@ name: "Married"
 Node: dcid:NotLivingTogether
 typeOf: dcs:MaritalStatusEnum
 name: "NotLivingTogether"
+
+Node: HealthEstablishment
+typeOf: schema:Class
+subClassOf: schema:Thing
+dcid: "HealthEstablishment"
+name: "HealthEstablishment"
+description: "Health related establishment"
+
+Node: dcid:healthEstablishmentType
+name: "healthEstablishmentType"
+typeOf: schema:Property
+domainIncludes: dcs:HealthEstablishment
+rangeIncludes: dcs:HealthEstablishmentTypeEnum
+

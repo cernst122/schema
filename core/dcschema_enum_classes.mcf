@@ -430,3 +430,10 @@ typeOf: schema:Class
 subClassOf: schema:Enumeration
 description: "Types of food establishments"
 name: "FoodEstablishmentTypeEnum"
+
+Node: dcid:HealthEstablishmentTypeEnum
+name: "HealthEstablishmentTypeEnum"
+typeOf: schema:Class
+subClassOf: schema:Enumeration
+description: "An enumeration of Health establishment Type. For example, Hospital, Health center."
+
