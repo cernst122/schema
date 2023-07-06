@@ -141,6 +141,10 @@ Node: dcid:IrrigatedLand
 typeOf: dcs:FarmTypeEnum
 name: "IrrigatedLand"
 
+Node: dcid:ArableLand
+typeOf: dcs:FarmTypeEnum
+name: "ArableLand"
+
 Node: dcid:GovernmentPaymentStatusEnum
 typeOf: schema:Class
 subClassOf: schema:Enumeration
@@ -428,6 +432,18 @@ Node: dcid:WheatExcludingDurum
 typeOf: dcs:FarmInventoryTypeEnum
 name: "WheatExcludingDurum"
 specializationOf: dcs:Crops
+
+Node: dcid:Cereal
+typeOf: dcs:FarmInventoryTypeEnum
+name: "Cereal"
+
+Node: dcid:Fertilizer
+typeOf: dcs:FarmInventoryTypeEnum
+name: "Fertilizer"
+
+Node: dcid:Tractor
+typeOf: dcs:FarmInventoryTypeEnum
+name: "Tractor"
 
 Node: dcid:FarmInventoryStatusEnum
 typeOf: schema:Class

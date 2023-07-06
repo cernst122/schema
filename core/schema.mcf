@@ -4158,7 +4158,7 @@ Node: yield
 dcid: "yield"
 name: "yield"
 typeOf: schema:Property
-domainIncludes: schema:HowTo
+domainIncludes: schema:HowTo, schema:Farm
 rangeIncludes: schema:Text
 
 Node: thumbnail
