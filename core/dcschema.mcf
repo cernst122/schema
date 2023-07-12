@@ -715,7 +715,7 @@ description: "A running count of all instances that have satisfied the constrain
 
 Node: dcid:incrementalCount
 rangeIncludes: schema:Integer
-domainIncludes: schema:StatisticalPopulation
+domainIncludes: schema:StatisticalPopulation, dcs:Person
 typeOf: schema:Property
 name: "incrementalCount"
 description: "A count of new instances satisfying the constraints of the Statistical Population since the last observation was made."
@@ -3143,6 +3143,11 @@ name: "OlderAdults"
 description: "People who are sixty-five years or more."
 descriptionUrl: "https://www.nih.gov/nih-style-guide/age"
 
+Node: dcid:Perinatal
+typeOf: dcs:AgeGroupClassificationEnum
+name: "Perinatal"
+description: "Refers to the number of still-births and deaths of persons under 7 days of age per thousand live-births and still-births"
+
 Node: dcid:MaritalStatusEnum
 typeOf: schema:Class
 subClassOf: schema:Enumeration
@@ -3159,3 +3164,10 @@ name: "Married"
 Node: dcid:NotLivingTogether
 typeOf: dcs:MaritalStatusEnum
 name: "NotLivingTogether"
+
+Node: dcid:naturalPopulationGrowth
+typeOf: dcs:Property
+name: "naturalPopulationGrowth"
+domainIncludes: dcs:Person
+description: "The difference between the birth rate and the death rate of a country, is defined as the birth rate subtracted by the death rate of a particular population, over a particular time period"
+descriptionUrl: "https://en.wikipedia.org/wiki/Rate_of_natural_increase"
